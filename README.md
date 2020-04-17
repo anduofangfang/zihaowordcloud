@@ -103,6 +103,7 @@
 ```powershell
 pip install numpy matplotlib pillow wordcloud imageio jieba snownlp itchat -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+安装numpy matplotlib pillow wordcloud imageio jieba snownlp itchat 通过https://pypi.tuna.tsinghua.edu.cn/simple这个网站
 
 ## 如果安装过程中报错（0.001%会发生）
 
