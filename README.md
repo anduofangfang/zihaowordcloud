@@ -167,7 +167,10 @@ w.to_file('output1.png')
 我们可以在`WordCloud()`括号里填入各种参数，控制词云的字体、字号、字的颜色、背景颜色等等。
 
 wordcloud库会非常智能地按空格进行分词及词频统计，出现次数多的词就大。
-
+#导入词云
+import worldcloud
+#创建词云对象，赋值给w，现在w就表示一个词云对象
+w = wordcloud.WordCloud()
 
 
 # 美化词云
@@ -182,8 +185,8 @@ wordcloud库会非常智能地按空格进行分词及词频统计，出现次�
 
 import wordcloud
 
-# 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数
-w = wordcloud.WordCloud(width=1000,height=700,background_color='white',font_path='msyh.ttc')
+ `   # 构建词云对象w，设置词云图片宽、高、字体、背景颜色等参数
+w = wordcloud.WordCloud(width=1000,height=700,background_color='white',font_path='msyh.ttc')`
 
 # 调用词云对象的generate方法，将文本传入
 w.generate('从明天起，做一个幸福的人。喂马、劈柴，周游世界。从明天起，关心粮食和蔬菜。我有一所房子，面朝大海，春暖花开')
